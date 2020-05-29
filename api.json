@@ -1,0 +1,43 @@
+[
+  {
+    "point": "Wuhan",
+    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=DEMO_KEY",
+    "todayCases": 623,
+    "deaths": 246,
+    "todayDeaths": 11,
+    "recovered": 1259,
+    "todayRecovered": 50,
+    "active": 12154,
+    "critical": 19,
+    "casesPerOneMillion": 352,
+    "deathsPerOneMillion": 6,
+    "tests": 35923,
+    "testsPerOneMillion": 925,
+    "population": 38841361,
+    "continent": "Asia",
+    "activePerOneMillion": 312.91,
+    "recoveredPerOneMillion": 32.41,
+    "criticalPerOneMillion": 0.49
+  },
+  {
+    "updated": 1590744912763,
+    "country": "Albania",
+    "cases": 1076,
+    "todayCases": 0,
+    "deaths": 33,
+    "todayDeaths": 0,
+    "recovered": 823,
+    "todayRecovered": 0,
+    "active": 220,
+    "critical": 3,
+    "casesPerOneMillion": 374,
+    "deathsPerOneMillion": 11,
+    "tests": 13993,
+    "testsPerOneMillion": 4862,
+    "population": 2878069,
+    "continent": "Europe",
+    "activePerOneMillion": 76.44,
+    "recoveredPerOneMillion": 285.96,
+    "criticalPerOneMillion": 1.04
+  }
+]
