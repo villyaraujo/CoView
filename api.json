@@ -2,7 +2,7 @@
   {
     "name": "Los Angeles",
     "state": "California",
-    "country": "USA
+    "country": "USA",
     "id": "1",
     "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
     "lat": 30.583332,
