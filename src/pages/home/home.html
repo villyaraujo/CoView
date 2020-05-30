@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>
+      CoView
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+    <video webkit-playsinline playsinline autoplay loop muted id="backgroundvideo">
+        <source src="./assets/imgs/bus.mp4" type='video/mp4; codecs="h.264"'>
+        <source src="./assets/imgs/bus.webm" type="video/webm">
+      </video> 
+  
+  <ion-slides autoplay="4000" pager loop>
+    <ion-slide>
+        <h4>Before</h4>
+        <p>Before Covid in places</p>
+    </ion-slide>
+    <ion-slide>
+        <h4>After</h4>
+        <p>AfterCovid in places</p>
+    </ion-slide>
+    <ion-slide>
+        <h4>Side by Side</h4>
+        <p>Before and after analysis</p>
+    </ion-slide>
+</ion-slides>
+</ion-content>

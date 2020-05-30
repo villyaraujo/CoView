@@ -1,0 +1,55 @@
+    page-home {
+
+    
+        font-family: 'Avenir', sans-serif;
+      video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-25%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url('../assets/imgs/bus.mp4') no-repeat;
+        background-size: cover;
+    }
+    
+    img {
+        opacity: 0.8;
+        padding: 70px;
+        padding-top: 100%;
+    }
+    
+    ion-slides {
+      height: 200px;
+      position: absolute;
+      bottom: 0;
+    
+      ion-slide {
+          color: #fff;
+      }
+    
+      h4 {
+          font-weight: bold;
+      }
+    
+      .swiper-pagination-bullet {
+          background: map-get($colors, light);
+      }
+    
+    }
+    
+    button {
+        font-weight: bold;
+    }
+        
+         
+    }
+    
