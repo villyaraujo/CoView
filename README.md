@@ -1,6 +1,5 @@
 # CoView
-App developed for [Space Apps NASA]
-
+App developed
 ## Setup
 
 Requirements to use this project:
