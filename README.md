@@ -23,10 +23,7 @@ Once you clone this repository, run this command on your terminal to install all
 ```sh
 $ npm install
 ``
-
-```sh
 npm install leaflet
-``
 
 ## Install cordova plugin Dependencies
 Run this command on your terminal to add a platform and install all needed puglins:
