@@ -1,3 +1,3 @@
-# Side by Side
+# CoView
 App developed for [Space Apps NASA]
 
