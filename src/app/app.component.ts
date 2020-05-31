@@ -3,6 +3,7 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { TeamPage } from '../pages/team/team'
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { MapPage } from '../pages/map/map';
@@ -26,9 +27,10 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Map', component: MapPage },
-      { title: 'About', component: ListPage },
       { title: 'Collaborate', component: CollaborationPage},
-      { title: 'Graphics', component: GraphicsPage}
+      { title: 'Membership', component: TeamPage},
+      { title: 'Graphics', component: GraphicsPage},
+      { title: 'About', component: ListPage }
     ];
 
   }

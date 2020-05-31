@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { CollaborationPage } from '../pages/collaborate/collaborate'
 import { GraphicsPage } from '../pages/graphics/graphics'
+import { TeamPage } from '../pages/team/team'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +23,8 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
     MapPage,
     PointanalysisPage,
     CollaborationPage,
-    GraphicsPage
+    GraphicsPage,
+    TeamPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
     MapPage,
     PointanalysisPage,
     CollaborationPage,
-    GraphicsPage
+    GraphicsPage,
+    TeamPage
   ],
   providers: [
     StatusBar,
