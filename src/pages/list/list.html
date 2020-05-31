@@ -3,21 +3,55 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>About</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+        <div class="button-center">
+          <b>The project</b>
+        </div>
+        <br>
+        <p style="font-size:20px">
+          <b>CoView</b> is a project created by SevenTeam. The intuitive of the project is to provide important data, satellite imagery comparisons and related information about the Covid-19 pandemic in only one place. With an intuitive map, the user can have access to dozens of points of interest around the world.<br>
+          The platform is also collaborative, meaning that users can add data, images and descriptions by themselves. Since our goal is to provide reliable information, any added information will be reviewed first by a group of collaborators. If users notice some incongruence in any of the information, they can also contest that.<br>
+          After the end of this pandemic, CoView can also be adept to show information and meaningful data about any other problem. For example, it can helps in the analysis of deforestation or even in the spread of other diseases.  
+        </p>
+        <br>
+        <div class="button-center">
+          <b>SevenTeam</b>
+        </div>
+        <br>
+        <p style="font-size:20px">
+          Danilo Gomes as <b>business</b>
+          <br>
+          Gabriel Babler as <b>developer</b>
+          <br>
+          Villy de Oliveira as <b>developer</b>
+          <br>
+          Gabriel Floriano as <b>researcher</b>
+          <br>
+          Maria Angélica Pagani as <b>researcher & designer</b>
+          <br>
+          Rômulo Amaral as <b>business & backend developer</b>
+        </p>
+        <br><br>
+        <div class="button-center">
+          <b>References</b>
+        </div>
+        <br>
+        <p style="font-size:20px;">
+          https://earthdata.nasa.gov/learn/pathfinders#covid-19-data-pathfinder <br>
+          https://about-corona.net <br>
+          https://www.esa.int <br>
+          https://www.ncdc.noaa.gov <br>
+          https://earthengine.google.com <br>
+          https://www.maxar.com/open-data <br>
+        </p>
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
