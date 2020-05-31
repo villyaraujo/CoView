@@ -5,7 +5,8 @@
     "country": "United States",
     "country_code":"US",
     "id": "1",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 39.588740,
     "long": -104.865038,
     "details":"test"
@@ -28,7 +29,8 @@
     "country": "Italy",
     "country_code":"IT",
     "id": "3",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 45.440566,
     "long": 12.349277,
     "details":"It is possible to identify a bigger quantity of phytoplankton, related to the 2020 year, as well as the moving of aquatic transport, boats, and ships. Because of social isolation, there was a decrease of phytoplankton, making water cleaner and also of transportation, generating Ambiental and economic impact, respectively."
@@ -39,7 +41,8 @@
     "country": "Iran",
     "country_code":"IR",
     "id": "4",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 35.408761,
     "long": 51.154960,
     "details":"test"
@@ -50,7 +53,8 @@
     "country": "Saudi Arabia",
     "country_code":"IR",
     "id": "5",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 21.426302,
     "long": 39.820873,
     "details":"test"
@@ -73,7 +77,8 @@
     "country": "Sweden",
     "country_code":"SE",
     "id": "7",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 57.4684,
     "long": 18.4867,
     "details":"test"
@@ -84,7 +89,8 @@
     "country": "United Arab Emirates",
     "country_code":"AE",
     "id": "8",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 24.468240,
     "long": 54.330178,
     "details":"test"
@@ -94,8 +100,9 @@
     "state": "Tateshina - Kitasaku District",
     "country": "Japan",
     "country_code":"JP",
-    "id": "9",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "id": "9"
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 36.102295,
     "long": 138.290737,
     "details":"test"
@@ -106,7 +113,8 @@
     "country": "China",
     "country_code":"CN",
     "id": "10",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 31.756575,
     "long": 111.037093,
     "details":"test"
@@ -117,7 +125,8 @@
     "country": "South Africa",
     "country_code":"ZA",
     "id": "11",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": -30.590734,
     "long": 24.244835,
     "details":"test"
@@ -151,8 +160,9 @@
     "state": "Black Sea",
     "country": "Black Sea",
     "country_code":"",
-    "id": "15",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "id": "15"
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 43.743722,
     "long": 34.249761,
     "details":"test"
@@ -163,7 +173,8 @@
     "country": "Yellow Sea",
     "country_code":"",
     "id": "16",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Mar%20Amarelo%20-%20250419.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Mar%20Amarelo%20-%20250420.png",
     "lat": 36.053680,
     "long": 123.728216,
     "details":"test"
@@ -174,7 +185,8 @@
     "country": "Gulf of Bothnia",
     "country_code":"",
     "id": "17",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 62.081794,
     "long": 19.466264,
     "details":"test"
@@ -185,7 +197,8 @@
     "country": "Sweden",
     "country_code":"",
     "id": "18",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "",
+    "imgafter": "",
     "lat": 62.081794,
     "long": 19.466264,
     "details":"test"
