@@ -6,8 +6,8 @@ webpackJsonp([9],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_leaflet__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_leaflet__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_leaflet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_leaflet__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pointanalysis_pointanalysis__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -98,10 +98,12 @@ var MapPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: "page-map",template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/map/map.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Map</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <div id="map" style="width:100%; height:100%;">\n  </div>\n</ion-content>\n'/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/map/map.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
     ], MapPage);
     return MapPage;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=map.js.map
@@ -114,7 +116,7 @@ var MapPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PointanalysisPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -172,7 +174,7 @@ var PointanalysisPage = /** @class */ (function () {
     };
     PointanalysisPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-pointanalysis',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/pointanalysis/pointanalysis.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Before | After</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n    <img-comparison-slider>\n      <img slot="before" src=\'{{imgbefore}}\'>\n      <img slot="after" src=\'{{imgafter}}\'>\n  </img-comparison-slider>\n    <ion-card-content>\n      <ion-card-title>\n        <div class="button-center">\n          Region: {{ name }}\n        </div>\n      </ion-card-title>\n      <p>\n        Country: {{ country }}\n      </p>\n      <p>\n        State: {{ state }}\n      </p>\n      <p>\n        Latitude: {{ lat }}\n      </p>\n      <p>\n        Longitude: {{ long }}\n      </p>\n      <p *ngIf="covid">\n        <br>\n        COVID Stats from Country:\n        <br>\n        Today\'s deaths: {{ covid.data.today.deaths }}\n        Today\'s confirmed cases: {{ covid.data.today.confirmed }}\n        <br>\n        Total Deaths: {{ covid.data.latest_data.deaths }}\n      </p>\n      <p *ngIf="covid">\n        COVID Confirmed cases: {{ covid.data.latest_data.confirmed }}\n      </p>\n      <p *ngIf="covid">\n        Recovered cases: {{ covid.data.latest_data.recovered }}\n      </p>\n      <p *ngIf="covid">\n        Rate of death (%): {{ covid.data.latest_data.calculated.death_rate }}\n      </p>\n      <br>\n      <p *ngIf="details">\n        Details: {{ details }}\n      </p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/pointanalysis/pointanalysis.html"*/,
+            selector: 'page-pointanalysis',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/pointanalysis/pointanalysis.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title><p align="center">Before | After</p></ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n    <img-comparison-slider>\n      <img slot="before" src=\'{{imgbefore}}\'>\n      <img slot="after" src=\'{{imgafter}}\'>\n  </img-comparison-slider>\n    <ion-card-content>\n      <ion-card-title>\n        <div class="button-center">\n          Region: {{ name }}\n        </div>\n      </ion-card-title>\n      <p>\n        Country: {{ country }}\n      </p>\n      <p>\n        State: {{ state }}\n      </p>\n      <p>\n        Latitude: {{ lat }}\n      </p>\n      <p>\n        Longitude: {{ long }}\n      </p>\n      <p *ngIf="covid">\n        <br>\n        COVID Stats from Country:\n        <br>\n        Today\'s deaths: {{ covid.data.today.deaths }}\n        <br>\n        Today\'s confirmed cases: {{ covid.data.today.confirmed }}\n        <br>\n        Total Deaths: {{ covid.data.latest_data.deaths }}\n      </p>\n      <p *ngIf="covid">\n        COVID Confirmed cases: {{ covid.data.latest_data.confirmed }}\n      </p>\n      <p *ngIf="covid">\n        Recovered cases: {{ covid.data.latest_data.recovered }}\n      </p>\n      <p *ngIf="covid">\n        Rate of death (%): {{ covid.data.latest_data.calculated.death_rate }}\n      </p>\n      <br>\n      <p *ngIf="details">\n        Details: {{ details }}\n      </p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/pointanalysis/pointanalysis.html"*/,
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]) === "function" && _e || Object])
     ], PointanalysisPage);
@@ -206,11 +208,11 @@ webpackEmptyAsyncContext.id = 110;
 
 var map = {
 	"../pages/map/map.module": [
-		284,
+		286,
 		8
 	],
 	"../pages/pointanalysis/pointanalysis.module": [
-		285,
+		287,
 		7
 	]
 };
@@ -236,7 +238,7 @@ module.exports = webpackAsyncContext;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -271,7 +273,7 @@ var HomePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -322,14 +324,115 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CollaborationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CollaborationPage = /** @class */ (function () {
+    function CollaborationPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    CollaborationPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'page-collab',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/collaborate/collaborate.html"*/'<ion-header>\n        <ion-navbar>\n          <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n          </button>\n          <ion-title>Collaborate with us!</ion-title>\n        </ion-navbar>\n      </ion-header>\n      \n      <ion-content>\n        <ion-card>\n          <ion-card-content>\n            <ion-card-title>\n              <div class="button-center">\n                <b>JOIN US</b>\n              </div>\n              <br>\n              <p style="font-size:20px">\n                <b>CoView</b> needs your help! \n                <br>\n                Your collaboration is so important for our project. If you have an appropriate background and you think you can give us some information, <b>DO IT!</b> \n                <br>\n                We will review your submission in a couple of days and if so, we will add to our map!\n              </p>\n            </ion-card-title>\n          </ion-card-content>\n        </ion-card>\n      </ion-content>\n      '/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/collaborate/collaborate.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+    ], CollaborationPage);
+    return CollaborationPage;
+}());
+
+//# sourceMappingURL=collaborate.js.map
+
+/***/ }),
+
 /***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraphicsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var GraphicsPage = /** @class */ (function () {
+    function GraphicsPage(navCtrl, navParams, loadingCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+    }
+    GraphicsPage.prototype.presentLoading = function () {
+        this.loader = this.loadingCtrl.create({
+            content: "Stay Safe! Loading.."
+        });
+        this.loader.present();
+    };
+    GraphicsPage.prototype.closeLoading = function () {
+        this.loader.dismiss();
+    };
+    GraphicsPage.prototype.ionViewDidLoad = function () {
+        this.getGraphics();
+    };
+    GraphicsPage.prototype.getGraphics = function () {
+        var _this = this;
+        fetch("https://raw.githubusercontent.com/villyaraujo/CoView/master/graph")
+            .then(function (res) { return res.json(); })
+            .then(function (data) {
+            console.log(data);
+            _this.active_mundo = data.active_mundo.jpg;
+            _this.confirmed_mundo = data.confirmed_mundo.jpg;
+            _this.deaths_mundo = data.deaths_mundo.jpg;
+            _this.new_confirmed_mundo = data.new_confirmed_mundo.jpg;
+            _this.new_deaths_mundo = data.new_deaths_mundo.jpg;
+            _this.new_recovered_mundo = data.new_recovered_mundo.jpg;
+            _this.recovered_mundo = data.recovered_mundo.jpg;
+        })
+            .catch(function (err) { return console.error(err); });
+    };
+    GraphicsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'page-graph',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/graphics/graphics.html"*/'<ion-header>\n        <ion-navbar>\n          <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n          </button>\n          <ion-title>Graphics</ion-title>\n        </ion-navbar>\n      </ion-header>\n      \n      <ion-content>\n        <ion-card>\n          <ion-card-content>\n            <ion-card-title>\n              <div class="button-center">\n                <b>Below you will be able to check some graphics about data from the world.</b>\n              </div>\n              <br>\n              <img src=\'{{active_mundo}}\'>\n              <p style="font-size:20px">\n                <b>CoView</b> needs your help! \n                <br>\n                Your collaboration is so important for our project. If you have an appropriate background and you think you can give us some information, <b>DO IT!</b> \n                <br>\n                We will review your submission in a couple of days and if so, we will add to our map!\n              </p>\n            </ion-card-title>\n          </ion-card-content>\n        </ion-card>\n      </ion-content>\n      '/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/graphics/graphics.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _c || Object])
+    ], GraphicsPage);
+    return GraphicsPage;
+    var _a, _b, _c;
+}());
+
+//# sourceMappingURL=graphics.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_img_comparison_slider_loader__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_img_comparison_slider_loader__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(227);
 
 
 
@@ -339,12 +442,12 @@ Object(__WEBPACK_IMPORTED_MODULE_1_img_comparison_slider_loader__["a" /* defineC
 
 /***/ }),
 
-/***/ 224:
+/***/ 226:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./img-comparison-slider.entry.js": [
-		280,
+		282,
 		4
 	]
 };
@@ -359,24 +462,24 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 224;
+webpackAsyncContext.id = 226;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 225:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(271);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_collaborate_collaborate__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_graphics_graphics__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_collaborate_collaborate__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_graphics_graphics__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_map_map__ = __webpack_require__(100);
@@ -448,20 +551,20 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 269:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_map_map__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_collaborate_collaborate__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_graphics_graphics__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_collaborate_collaborate__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_graphics_graphics__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -512,119 +615,19 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/app/app.html"*/'<ion-split-pane>\n\n  <!--  our side menu  -->\n  <ion-menu [content]="content" type="overlay">\n    <ion-header>\n      <ion-toolbar>\n        <ion-title>Menu</ion-title>\n      </ion-toolbar>\n    </ion-header>\n  \n    <ion-content>\n      <ion-list>\n        <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n          {{p.title}}\n        </button>\n      </ion-list>\n    </ion-content>\n  \n  </ion-menu>\n\n  <!-- the main content -->\n  <ion-nav [root]="rootPage" main #content swipeBackEnabled="false"></ion-nav>\n\n</ion-split-pane>\n'/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
-/***/ }),
-
-/***/ 286:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CollaborationPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var CollaborationPage = /** @class */ (function () {
-    function CollaborationPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    CollaborationPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-collab',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/collaborate/collaborate.html"*/'<ion-header>\n        <ion-navbar>\n          <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n          </button>\n          <ion-title>Collaborate with us!</ion-title>\n        </ion-navbar>\n      </ion-header>\n      \n      <ion-content>\n        <ion-card>\n          <ion-card-content>\n            <ion-card-title>\n              <div class="button-center">\n                <b>JOIN US</b>\n              </div>\n              <br>\n              <p style="font-size:20px">\n                <b>CoView</b> needs your help! \n                <br>\n                Your collaboration is so important for our project. If you have an appropriate background and you think you can give us some information, <b>DO IT!</b> \n                <br>\n                We will review your submission in a couple of days and if so, we will add to our map!\n              </p>\n            </ion-card-title>\n          </ion-card-content>\n        </ion-card>\n      </ion-content>\n      '/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/collaborate/collaborate.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
-    ], CollaborationPage);
-    return CollaborationPage;
-}());
-
-//# sourceMappingURL=collaborate.js.map
-
-/***/ }),
-
-/***/ 287:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraphicsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var GraphicsPage = /** @class */ (function () {
-    function GraphicsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    GraphicsPage_1 = GraphicsPage;
-    GraphicsPage.prototype.getGraphics = function () {
-        var _this = this;
-        fetch("https://raw.githubusercontent.com/villyaraujo/CoView/master/graph")
-            .then(function (res) { return res.json(); })
-            .then(function (data) {
-            _this.navCtrl.push(GraphicsPage_1, {
-                active_mundo: data.active_mundo.jpg,
-                confirmed_mundo: data.confirmed_mundo.jpg,
-                deaths_mundo: data.deaths_mundo.jpg,
-                new_confirmed_mundo: data.new_confirmed_mundo.jpg,
-                new_deaths_mundo: data.new_deaths_mundo.jpg,
-                new_recovered_mundo: data.new_recovered_mundo.jpg,
-                recovered_mundo: data.recovered_mundo.jpg,
-            });
-        })
-            .catch(function (err) { return console.error(err); });
-    };
-    GraphicsPage.prototype.ionViewDidLoad = function () {
-        this.active_mundo = this.navParams.get('active_mundo');
-        this.confirmed_mundo = this.navParams.get('confirmed_mundo');
-        this.deaths_mundo = this.navParams.get('deaths_mundo');
-        this.new_confirmed_mundo = this.navParams.get('new_confirmed_mundo');
-        this.new_deaths_mundo = this.navParams.get('new_deaths_mundo');
-        this.new_recovered_mundo = this.navParams.get('new_recovered_mundo');
-        this.recovered_mundo = this.navParams.get('recovered_mundo');
-    };
-    GraphicsPage = GraphicsPage_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-graph',template:/*ion-inline-start:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/graphics/graphics.html"*/'<ion-header>\n        <ion-navbar>\n          <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n          </button>\n          <ion-title>Graphics</ion-title>\n        </ion-navbar>\n      </ion-header>\n      \n      <ion-content>\n        <ion-card>\n          <ion-card-content>\n            <ion-card-title>\n              <div class="button-center">\n                <b>Below you will be able to check some graphics about data from the world.</b>\n              </div>\n              <br>\n              <img src=\'{{imgbefore}}\'>\n              <p style="font-size:20px">\n                <b>CoView</b> needs your help! \n                <br>\n                Your collaboration is so important for our project. If you have an appropriate background and you think you can give us some information, <b>DO IT!</b> \n                <br>\n                We will review your submission in a couple of days and if so, we will add to our map!\n              </p>\n            </ion-card-title>\n          </ion-card-content>\n        </ion-card>\n      </ion-content>\n      '/*ion-inline-end:"/home/gabrielbabler/Documents/spaceAppsChallenge/CoView/src/pages/graphics/graphics.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
-    ], GraphicsPage);
-    return GraphicsPage;
-    var GraphicsPage_1, _a, _b;
-}());
-
-//# sourceMappingURL=graphics.js.map
-
 /***/ })
 
-},[198]);
+},[200]);
 //# sourceMappingURL=main.js.map

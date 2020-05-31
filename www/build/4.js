@@ -1,12 +1,12 @@
 webpackJsonp([4],{
 
-/***/ 280:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "img_comparison_slider", function() { return ImgComparisonSlider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk_48aeaa03_js__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk_48aeaa03_js__ = __webpack_require__(199);
 
 var inBetween = function (actual, min, max) {
     if (actual < min) {
