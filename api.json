@@ -150,8 +150,8 @@
     "country": "United States",
     "country_code":"US",
     "id": "14",
-    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/COSTA%20LESTE%20-%20260520.png",
-    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/COSTA%20LESTE%20-%20260519.png",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/COSTA%20LESTE%20-%20260519.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/COSTA%20LESTE%20-%20260520.png",
     "lat": 30.505093,
     "long": -84.305346,
     "details":"test"
