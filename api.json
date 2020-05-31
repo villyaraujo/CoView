@@ -101,8 +101,8 @@
     "country": "Japan",
     "country_code":"JP",
     "id": "9",
-    "imgbefore": "",
-    "imgafter" : "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Japa%CC%83o%20-%20260519.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Japa%CC%83o%20-%20260520.png",
     "lat": 36.102295,
     "long": 138.290737,
     "details":"test"
