@@ -5,8 +5,8 @@
     "country": "United States",
     "country_code":"US",
     "id": "1",
-    "imgbefore": "",
-    "imgafter": "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/before03_top-golf-and-walmart_centennial-colorado_10march2020_ge1.jpg",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/aftere04_top-golf-and-walmart_centennial-colorado_24march2020_wv2.jpg",
     "lat": 39.588740,
     "long": -104.865038,
     "details":"test"
