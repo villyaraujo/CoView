@@ -25743,3 +25743,12 @@ page-home ion-slides .swiper-pagination-bullet {
 page-home button {
   font-weight: bold;
 }
+
+page-pointanalysis img-comparison-slider {
+  --divider: 5px solid #c0c0c0;
+  --hint-opacity: 0.8;
+  --hint-size:40px;
+  --hint-color: red;
+  --hint-opacity-active: 0;
+  visibility: hidden;
+}
