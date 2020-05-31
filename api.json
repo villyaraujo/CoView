@@ -53,8 +53,8 @@
     "country": "Saudi Arabia",
     "country_code":"IR",
     "id": "5",
-    "imgbefore": "",
-    "imgafter": "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/holy%20city%20of%20Mecca%20Saudi%20Arabia%20-%20Before%20COVID%20-%2021%C2%B025_34.7_N%2039%C2%B049_15.1_E%20_%2021.426302%2C%2039.820873.JPG",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/holy%20city%20of%20Mecca%20Saudi%20Arabia%20-%20During%20COVID%20-%2021%C2%B025_34.7_N%2039%C2%B049_15.1_E%20_%2021.426302%2C%2039.820873JPG.jpg",
     "lat": 21.426302,
     "long": 39.820873,
     "details":"test"
