@@ -28,7 +28,7 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Map', component: MapPage },
       { title: 'Collaborate', component: CollaborationPage},
-      { title: 'Membership', component: TeamPage},
+      { title: 'Join us', component: TeamPage},
       { title: 'Graphics', component: GraphicsPage},
       { title: 'About', component: ListPage }
     ];
