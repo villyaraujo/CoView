@@ -41,8 +41,8 @@
     "country": "Iran",
     "country_code":"IR",
     "id": "4",
-    "imgbefore": "",
-    "imgafter": "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Tehran%20Airport%20-%20Before%20COVID%20-%2035%C2%B024_31.5_N%2051%C2%B009_17.9_E%20_%2035.408761%2C%2051.154960.JPG",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Tehran%20Airport%20-%20During%20COVID%20-%2035%C2%B024_31.5_N%2051%C2%B009_17.9_E%20_%2035.408761%2C%2051.154960.JPG",
     "lat": 35.408761,
     "long": 51.154960,
     "details":"test"
