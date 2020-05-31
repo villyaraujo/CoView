@@ -64,8 +64,8 @@ export class MapPage {
   }
 
   addPoint() {
-    window.that = this;
-    window.openModal = this.openModal;
+    // window.that = this;
+    // window.openModal = this.openModal;
     for (let property of this.points) {
       const propToString = encodeURI(JSON.stringify(property));
       const popup = property.name +

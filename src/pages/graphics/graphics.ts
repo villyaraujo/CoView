@@ -35,18 +35,18 @@ export class GraphicsPage {
 
   getGraphics() {
   fetch(
-    "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph"
+    "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph.json"
   )
     .then(res => res.json())
     .then(data => {
       console.log(data);
-      this.active_mundo = data.active_mundo.jpg;
-      this.confirmed_mundo = data.confirmed_mundo.jpg;
-      this.deaths_mundo = data.deaths_mundo.jpg;
-      this.new_confirmed_mundo = data.new_confirmed_mundo.jpg;
-      this.new_deaths_mundo = data.new_deaths_mundo.jpg;
-      this.new_recovered_mundo = data.new_recovered_mundo.jpg;
-      this.recovered_mundo = data.recovered_mundo.jpg;
+      this.active_mundo = data.active_mundo;
+      this.confirmed_mundo = data.confirmed_mundo;
+      this.deaths_mundo = data.deaths_mundo;
+      this.new_confirmed_mundo = data.new_confirmed_mundo;
+      this.new_deaths_mundo = data.new_deaths_mundo;
+      this.new_recovered_mundo = data.new_recovered_mundo;
+      this.recovered_mundo = data.recovered_mundo;
       })
     .catch(err => console.error(err));
   }
