@@ -29,8 +29,8 @@
     "country": "Italy",
     "country_code":"IT",
     "id": "3",
-    "imgbefore": "",
-    "imgafter": "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/italia_antes.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/italia_depois.png",
     "lat": 45.440566,
     "long": 12.349277,
     "details":"It is possible to identify a bigger quantity of phytoplankton, related to the 2020 year, as well as the moving of aquatic transport, boats, and ships. Because of social isolation, there was a decrease of phytoplankton, making water cleaner and also of transportation, generating Ambiental and economic impact, respectively."
