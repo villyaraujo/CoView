@@ -1,33 +1,56 @@
 <ion-header>
-
   <ion-navbar>
-    <ion-title>Before | After</ion-title>
-    <ion-buttons end>
-      <button ion-button (click)="closeModal()">Fechar</button>
-    </ion-buttons>
+    <ion-title><p align="center">Before | After</p></ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
 <ion-content padding>
-  <ion-card >
+  <ion-card>
+    <img-comparison-slider>
+      <img slot="before" src='{{imgbefore}}'>
+      <img slot="after" src='{{imgafter}}'>
+  </img-comparison-slider>
     <ion-card-content>
       <ion-card-title>
         <div class="button-center">
-          
-         
-          LInha
+          Region: {{ name }}
         </div>
       </ion-card-title>
-      <p text-justify>
-        Cód: 
+      <p>
+        Country: {{ country }}
       </p>
-      Cartão: 
+      <p>
+        State: {{ state }}
+      </p>
+      <p>
+        Latitude: {{ lat }}
+      </p>
+      <p>
+        Longitude: {{ long }}
+      </p>
+      <p *ngIf="covid">
+        <br>
+        COVID Stats from Country:
+        <br>
+        Today's deaths: {{ covid.data.today.deaths }}
+        <br>
+        Today's confirmed cases: {{ covid.data.today.confirmed }}
+        <br>
+        Total Deaths: {{ covid.data.latest_data.deaths }}
+      </p>
+      <p *ngIf="covid">
+        COVID Confirmed cases: {{ covid.data.latest_data.confirmed }}
+      </p>
+      <p *ngIf="covid">
+        Recovered cases: {{ covid.data.latest_data.recovered }}
+      </p>
+      <p *ngIf="covid">
+        Rate of death (%): {{ covid.data.latest_data.calculated.death_rate }}
+      </p>
       <br>
-      Categoria: 
+      <p *ngIf="details">
+        Details: {{ details }}
+      </p>
     </ion-card-content>
-   
-    <br>
   </ion-card>
 </ion-content>

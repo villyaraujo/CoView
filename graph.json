@@ -1,0 +1,9 @@
+{
+    "active_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/active_mundo.jpg",
+    "confirmed_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/confirmed_mundo.jpg",
+    "deaths_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/deaths_mundo.jpg",
+    "new_confirmed_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/new_confirmed_mundo.jpg",
+    "new_deaths_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/new_deaths_mundo.jpg",
+    "new_recovered_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/new_recovered_mundo.jpg",
+    "recovered_mundo":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/recovered_mundo.jpg"
+}
