@@ -16,7 +16,8 @@
     "country": "China",
     "country_code":"CN",
     "id": "2",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2020-05-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/CHINA%20-%20260519.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/CHINA%20-%20260520.png",
     "lat": 30.525768,
     "long": 114.164254,
     "details":"test"
