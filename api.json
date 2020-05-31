@@ -161,8 +161,8 @@
     "country": "Black Sea",
     "country_code":"",
     "id": "15",
-    "imgbefore": "",
-    "imgafter": "",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Mar%20negro%20-%20250419.png",
+    "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/Mar%20negro%20-%20250420.png",
     "lat": 43.743722,
     "long": 34.249761,
     "details":"test"
