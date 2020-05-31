@@ -100,9 +100,9 @@
     "state": "Tateshina - Kitasaku District",
     "country": "Japan",
     "country_code":"JP",
-    "id": "9"
+    "id": "9",
     "imgbefore": "",
-    "imgafter": "",
+    "imgafter" : "",
     "lat": 36.102295,
     "long": 138.290737,
     "details":"test"
@@ -160,7 +160,7 @@
     "state": "Black Sea",
     "country": "Black Sea",
     "country_code":"",
-    "id": "15"
+    "id": "15",
     "imgbefore": "",
     "imgafter": "",
     "lat": 43.743722,
