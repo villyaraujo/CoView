@@ -127,19 +127,9 @@
     "state": "Toledo",
     "country": "Spain",
     "country_code":"ES",
-    "id": "12",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
-    "lat": 39.861661,
-    "long": -4.023465,
-    "details":"test"
-  },
-  {
-    "name": "Old Town",
-    "state": "Toledo",
-    "country": "Spain",
-    "country_code":"ES",
     "id": "13",
-    "img": "https://api.nasa.gov/planetary/earth/imagery?lon=114.283333&lat=30.583332&date=2019-12-01&dim=0.18&api_key=iHEiD3KDFWgl0Cf51x52rlF4TT05ewA6W8gAQrmJ",
+    "imgbefore": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/ESP%20-%20260519.png",
+    "imgafter":"https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/ESP%20-%20260520.png",
     "lat": 39.861661,
     "long": -4.023465,
     "details":"test"
