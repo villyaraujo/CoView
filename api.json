@@ -72,30 +72,6 @@
     "details":"In this parking lot, it can be seen the difference in activity before and after the Covid-19 pandemic."
   },
   {
-    "name": "Gotland",
-    "state": "Island",
-    "country": "Sweden",
-    "country_code":"SE",
-    "id": "7",
-    "imgbefore": "",
-    "imgafter": "",
-    "lat": 57.4684,
-    "long": 18.4867,
-    "details":"There is a reduction in the amount of phytoplankton, causing a change in the water color and an increase of the traffic in general, generating lower levels of pollution in the air and water."
-  },
-  {
-    "name": "Abu Dhabi",
-    "state": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "country_code":"AE",
-    "id": "8",
-    "imgbefore": "",
-    "imgafter": "",
-    "lat": 24.468240,
-    "long": 54.330178,
-    "details":"There is a huge local park called Mangrove National Park. It is a protected area and it is an habitat for different species of animals. It was impacted by the increased number of  phytoplankton, which changed the color of the water."
-  },
-  {
     "name": "Ashidahakkano",
     "state": "Tateshina - Kitasaku District",
     "country": "Japan",
@@ -106,30 +82,6 @@
     "lat": 36.102295,
     "long": 138.290737,
     "details":"According to Japan Meteorological Agency, the decrease in temperature in Japan is due to the reduction of nitrogen dioxide in the atmosphere."
-  },
-  {
-    "name": "Baokang County",
-    "state": "Xiangyang",
-    "country": "China",
-    "country_code":"CN",
-    "id": "10",
-    "imgbefore": "",
-    "imgafter": "",
-    "lat": 31.756575,
-    "long": 111.037093,
-    "details":"According to ESA (The European Space Agency), the reduction in traffic and industrial activity is responsible for the decrease in nitrogen dioxide concentrations in the atmosphere. It leads to a better respiratory health in general."
-  },
-  {
-    "name": "Emthanjeni",
-    "state": "Municipality",
-    "country": "South Africa",
-    "country_code":"ZA",
-    "id": "11",
-    "imgbefore": "",
-    "imgafter": "",
-    "lat": -30.590734,
-    "long": 24.244835,
-    "details":"According to National Centers For Environmental Information and National Oceanic and Atmospheric Administration, there was a reduction in the emission of atmospheric gases caused but industries. It leads in the decrease of the global surface temperature."
   },
   {
     "name": "Old Town",
@@ -192,18 +144,6 @@
     "details":"In this case, it would be necessary to request a more detailed analysis from an collaborator expert."
   },
   {
-    "name": "Kiruna N",
-    "state": "Province of Lapland",
-    "country": "Sweden",
-    "country_code":"",
-    "id": "18",
-    "imgbefore": "",
-    "imgafter": "",
-    "lat": 62.081794,
-    "long": 19.466264,
-    "details":"It is noticeable the difference in ice accumulation, due to the decrease of the emission of some  atmospheric gases and the local temperature. Moreover, it was observed surface temperature anomalies. However, it would be necessary to request a more detailed analysis from an collaborator expert."
-  },
-  {
     "name": "Fortaleza dos Nogueiras",
     "state": "Maranhão",
     "country": "Brazil",
@@ -213,6 +153,6 @@
     "imgafter": "https://raw.githubusercontent.com/villyaraujo/CoView/master/graph/nordeste_260520.webp",
     "lat": -6.842803,
     "long": -46.036502,
-    "details":"It is noticeable the difference in ice accumulation, due to the decrease of the emission of some  atmospheric gases and the local temperature. Moreover, it was observed surface temperature anomalies. However, it would be necessary to request a more detailed analysis from an collaborator expert."
+    "details":"In this case, it would be necessary to request a more detailed analysis from an collaborator expert."
   }
 ]
