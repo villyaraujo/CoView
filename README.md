@@ -1,5 +1,6 @@
 # CoView
-App developed
+NASA 2020 Challenge
+App - NASA Space Apps Challenge | COVID - May 30-31, 2020
 ## Setup
 
 Requirements to use this project:
